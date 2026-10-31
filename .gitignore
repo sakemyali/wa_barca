@@ -1,0 +1,15 @@
+# match data is licensed for this competition only; never commit it or anything that reconstructs it
+data/
+*.mp4
+*.npz
+*.parquet
+.cache/
+evaluation/results/*.csv
+!evaluation/results/baseline_*.csv
+evaluation/reports/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.DS_Store
