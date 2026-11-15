@@ -1,0 +1,15 @@
+OK    wa_barca.csv
+      199319 rows, frame 0..199318
+
+      label counts
+        H    49897   25.0%
+        A    33956   17.0%
+        D    75004   37.6%
+        X    40462   20.3%
+
+      reports 310 possessions of mean 10.8 s
+      (counted with each X as a gap; the scorer bridges abstentions inside a real
+       possession, so its count can be lower than this one)
+
+Valid. Note this checks the format only -- it says nothing about whether the labels are right.
+Score it against the public ground truth with run_evaluation.py.

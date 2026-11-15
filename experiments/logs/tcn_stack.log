@@ -1,0 +1,10 @@
+inputs=stack (260 per frame), 20 sequences, ready in 85s
+    step 100/426 loss 0.4377 (195s)
+    step 200/426 loss 0.2925 (336s)
+    step 300/426 loss 0.2610 (469s)
+    step 400/426 loss 0.2349 (602s)
+  fold 0 dfl_J03WMX         dead acc 0.9790 | team acc on live frames 0.9083
+  fold 0 dfl_J03WOY         dead acc 0.9771 | team acc on live frames 0.8909
+  fold 0 dfl_J03WR9         dead acc 0.9853 | team acc on live frames 0.9255
+  fold 0 metrica_sample_1   dead acc 0.9730 | team acc on live frames 0.9212
+done in 736s; now: python scripts/tune_decoder.py tcn_stack
