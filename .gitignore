@@ -17,3 +17,4 @@ __pycache__/
 data_external/
 evaluation/scoreboard.csv
 experiments/oof_*.npz
+.ipynb_checkpoints/
