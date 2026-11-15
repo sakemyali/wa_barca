@@ -14,3 +14,7 @@ __pycache__/
 .env
 .DS_Store
 *.egg-info/
+data_external/
+evaluation/scoreboard.csv
+experiments/oof_*.npz
+.ipynb_checkpoints/

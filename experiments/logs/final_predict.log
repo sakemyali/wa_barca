@@ -1,0 +1,3 @@
+frames forced to D before an opening kickoff: 2946
+wrote evaluation/results/wa_barca.csv (199319 rows, {'H': 49897, 'A': 33956, 'D': 75004, 'X': 40462}) in 29s
+public 5-minute window (sanity check only): spellF1 0.7355 macroF1 0.9287 possessions 14 vs 17

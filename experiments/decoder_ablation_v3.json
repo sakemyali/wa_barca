@@ -1,0 +1,44 @@
+[
+ {
+  "decoder": "per-frame argmax",
+  "spell_f1": 0.42165609111237545,
+  "macro_f1": 0.9095585395767959,
+  "spell_ratio": 1.975413645597558
+ },
+ {
+  "decoder": "argmax + majority vote +/-12",
+  "spell_f1": 0.6168779621917271,
+  "macro_f1": 0.910714334879734,
+  "spell_ratio": 0.9993801436557718
+ },
+ {
+  "decoder": "argmax + majority vote +/-25",
+  "spell_f1": 0.6376930165012623,
+  "macro_f1": 0.9114482454695144,
+  "spell_ratio": 0.8562074928802679
+ },
+ {
+  "decoder": "argmax + majority vote +/-50",
+  "spell_f1": 0.6015318929369255,
+  "macro_f1": 0.907962933246527,
+  "spell_ratio": 0.6958135421701026
+ },
+ {
+  "decoder": "argmax + majority vote +/-100",
+  "spell_f1": 0.486893545721735,
+  "macro_f1": 0.8904078455325097,
+  "spell_ratio": 0.517104300948912
+ },
+ {
+  "decoder": "Viterbi, tuned [0.3, 2.0, 6.0, 14.0, 0.0, 0.0, 0.0]",
+  "spell_f1": 0.6512183385613757,
+  "macro_f1": 0.9121482695909187,
+  "spell_ratio": 0.8233864201180425
+ },
+ {
+  "decoder": "Viterbi + event-aware costs, tuned [0.3, 4.5, 6.0, 14.0, 1.0, 1.0, 1.0]",
+  "spell_f1": 0.6592945122062632,
+  "macro_f1": 0.9147595852956556,
+  "spell_ratio": 0.7921355421816246
+ }
+]

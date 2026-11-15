@@ -1,0 +1,5 @@
+players-only alive model: 955050 rows, 138 features, 381s
+estimated dead share 0.473; dead segments 98
+bank[dead]: 99 segments, median 561 frames | visible share: all-missing 0.16 of segments, all-visible 0.21, frame-weighted visible 0.261
+bank[alive]: 98 segments, median 682 frames | visible share: all-missing 0.00 of segments, all-visible 0.33, frame-weighted visible 0.892
+done in 414s
