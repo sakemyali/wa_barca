@@ -46,7 +46,7 @@ python scripts/run_cv.py v3                  # 3-fold cross-validation, out-of-f
 python scripts/tune_decoder.py v3            # choose the decoder's settings by spellF1
 python scripts/error_analysis.py v3          # where the possessions are lost
 python scripts/baseline_check.py             # organisers' baseline on the simulated matches
-python -m pytest -q                          # 29 unit tests, a few seconds
+python -m pytest -q                          # 37 unit tests, a few seconds
 ```
 
 Seeds are fixed everywhere and LightGBM runs in deterministic mode, so a rebuild on the same
